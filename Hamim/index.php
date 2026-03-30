@@ -29,7 +29,7 @@ include 'getData.php';
     <textarea name="address" required></textarea><br>
 </label><br> 
 
-    <button type="submit" style="padding: 10px; background-color: #4CAF50; color: white; border-radius: 10px">Submit</button>
+    <button type="submit" style="padding: 10px; background-color: #007BFF; color: white; border-radius: 10px">Submit</button>
 </div>
 <hr>
 </form>
@@ -38,8 +38,8 @@ include 'getData.php';
 <?php
 if (!empty($result)) {
 	    echo "<h3>Hasil:</h3>";
-	        echo $result;
-	    }
+	    echo $result;
+	}
 ?>
 </body>
 </html>
